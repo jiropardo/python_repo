@@ -1,2 +1,12 @@
-def function1():
-    return "Hello from module1!"
+class configuaration:
+    date: str
+
+    def __init__(self, date):
+        pass
+
+    def function1():
+        return "Hello from module1!"
+
+
+
+
