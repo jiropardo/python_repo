@@ -1,4 +1,4 @@
-class configuaration:
+class configuration:
     date: str
 
     def __init__(self, date):
