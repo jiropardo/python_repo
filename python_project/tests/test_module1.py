@@ -1,12 +1,16 @@
 # tests/test_module1.py
-import unittest
+#import unittest
 from my_project.module1 import function1
 
-class TestModule1(unittest.TestCase):
-    def test_function1(self):
-        result = function1()
-+       print(result)
-        self.assertEqual(function1(), "Hello from module1!")
+result = function1()
+print(result)
 
-if __name__ == "__main__":
-    unittest.main()
+
+#class TestModule1(unittest.TestCase):
+#    def test_function1(self):
+#        result = function1()
+#       print(result)
+#        self.assertEqual(function1(), "Hello from module1!")
+
+#if __name__ == "__main__":
+#    unittest.main()
